@@ -22,8 +22,8 @@ except ImportError:
 API_QUERY = 'http://api.trove.nla.gov.au/result?q={keywords}&zone=picture&key={key}&encoding=json&n={number}&s={start}&reclevel=full&sortby={sort}'
 GREETING = 'Greetings human! Insert keywords. Use #luckydip for randomness.'
 FAILED = "I didn't find anything for '{query}' so I found you this instead."
-BOT_NAME = 'YourBotName'
-NUC = 'YourNUC'
+BOT_NAME = 'BattyeBot'
+NUC = 'WLB'
 # Set AUTO_REPLY to false to stop the bot treating every message as a search query.
 # If False users have to add a #q hashtage to a query.
 # If you set to False you might want to change the GREETING as well.
